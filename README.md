@@ -10,3 +10,12 @@ $ npm start
 ```
 
 Open [http://localhost:8081/](http://localhost:8081/) in your browser see the tests. Static files are served using Express.
+
+### TODO
+
+* Improve converter implementation and its tests
+* Implement duration helper and its tests:
+    * Create new duration from milliseconds, seconds, minutes etc.
+    * Get duration beetween two time stamps
+    * Different duration formats
+    * Basic operation with duration
