@@ -1,6 +1,6 @@
-# Example Standalone Jasmine project 
+# Examplary Standalone Jasmine project 
 
-An example simple project that includes Jasmine, an HTML "test runner" file and several scripts to run Jasmine tests without any additional tooling.
+Simple TDD project containing Jasmine, HTML "test runner" file and some helper scripts that allow to run tests without any additional tooling.
 
 To run tests type in your terminal:
 
@@ -9,13 +9,13 @@ $ npm install
 $ npm start
 ```
 
-Open [http://localhost:8081/](http://localhost:8081/) in your browser see the tests. Static files are served using Express.
+Open [http://localhost:8081/](http://localhost:8081/) in your browser and see results of the tests. Static files are served using Express.
 
 ### TODO
 
-* Improve converter implementation and its tests
-* Implement duration helper and its tests:
+* Improve converter implementation and tests for it
+* Implement duration helper and tests:
     * Create new duration from milliseconds, seconds, minutes etc.
-    * Get duration beetween two time stamps
-    * Different duration formats
-    * Basic operation with duration
+    * Get duration beetween two timestamps
+    * Support different duration formats
+    * Implement basic operation on durations
