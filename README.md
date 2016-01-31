@@ -1,8 +1,6 @@
-# jasmine-tdd-example
+# Example Standalone Jasmine project 
 
-An example simple project that includes Jasmine and several scripts without any additional tooling.
-
-Static files are served using Express.
+An example simple project that includes Jasmine, an HTML "test runner" file and several scripts to run Jasmine tests without any additional tooling.
 
 To run tests type in your terminal:
 
@@ -11,4 +9,4 @@ $ npm install
 $ npm start
 ```
 
-Open this link [http://localhost:8081/](http://localhost:8081/) in your browser see the tests.
+Open [http://localhost:8081/](http://localhost:8081/) in your browser see the tests. Static files are served using Express.
