@@ -1,0 +1,14 @@
+{
+  "name": "jasmine-tdd-example",
+  "version": "0.0.1",
+  "author": "Sergey Bolshov bolszow@gmail.com",
+  "description": "An example simple project trying out the standalone Jasmine test runner",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
