@@ -26,6 +26,10 @@
             converter.convertToRoman([]);
           }).toThrowError(TypeError);
         });
+
+        it('should return String', function() {
+          expect(converter.convertToRoman(1)).toEqual(jasmine.any(String));
+        });
       });
 
       describe('Test base 7 symbols', function() {
